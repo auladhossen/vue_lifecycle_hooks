@@ -18,7 +18,6 @@ const toggleView = () => {
   <div class="card">
     <Carousel v-if="isViewVisible" />
     <PieChart v-else />
-    <DataFetchingComponent />
   </div>
 </template>
 
