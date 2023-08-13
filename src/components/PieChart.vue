@@ -42,6 +42,8 @@ onMounted(() => {
 });
 
 onBeforeUnmount(() => {
+  data.labels = [];
+  data.datasets = [];
   chart.destroy();
 });
 </script>
